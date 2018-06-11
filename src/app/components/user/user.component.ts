@@ -23,7 +23,8 @@ export class UserComponent implements OnInit {
       street: '812 Annlynn Court',
       city: 'St. Louis',
       state: 'MO.'
-    }
+    },
+    this.email = 'mitchell.lembke@gmail.com'
     this.hobbies = ['Write code', 'Watch movies', 'Listen to music']
     this.hello = 'hello'
   }
